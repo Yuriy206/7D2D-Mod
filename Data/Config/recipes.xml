@@ -86,6 +86,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 
 <!-- * * * * * * * * * * * * main recipes * * * * * * * * * * * * -->
 
+<!-- * * * AMMO * * -->
 <recipe name="44MagBullet" count="1" craft_area="workbench">
 	<ingredient name="bulletTip" count="1"/>
 	<ingredient name="gunPowder" count="3"/>
@@ -2034,10 +2035,10 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="dirtFragment" count="8"/>
 </recipe>
 
+<!-- Use rope -->
 <recipe name="splint" count="1">
-	<ingredient name="cloth" count="2"/>
+	<ingredient name="cloth" count="4"/>
 	<ingredient name="wood" count="2"/>
-	<ingredient name="ductTape" count="1"/>
 </recipe>
 
 <recipe name="steelArrow" count="1">
