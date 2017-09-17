@@ -86,7 +86,12 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 
 <!-- * * * * * * * * * * * * main recipes * * * * * * * * * * * * -->
 
-<!-- * * * AMMO * * -->
+<!-- * * * MOD ADDED * * * -->
+<recipe name="fiberRope" count="1" craft_time="1" craft_exp_gain="1">
+	<ingredient name="plantFibers" count="2" />
+</recipe>
+
+<!-- * * * AMMO * * * -->
 <recipe name="44MagBullet" count="1" craft_area="workbench">
 	<ingredient name="bulletTip" count="1"/>
 	<ingredient name="gunPowder" count="3"/>
