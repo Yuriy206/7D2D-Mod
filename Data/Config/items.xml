@@ -30,7 +30,7 @@ Mesh files no longer used:
 -->
 <items>
 <!-- * * * MOD ADDED * * * -->
-<item id="30000" name="itemMaster">
+<item id="3000" name="itemMaster">
 	<property name="Meshfile" value="Items/Misc/sackPrefab" />
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
 	<property name="Material" value="organic" />
@@ -41,7 +41,7 @@ Mesh files no longer used:
 	<property name="SellableToTrader" value="false" />
 </item>
 
-<item id="30001" name="Rope">
+<item id="3001" name="Rope">
 	<property name="Extends" value="itemMaster" />
 	<property name="Meshfile" value="Items/Crafting/plant_fibers" />
 	<property name="Weight" value="1" />
