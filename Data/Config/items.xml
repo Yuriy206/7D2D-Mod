@@ -41,15 +41,15 @@ Mesh files no longer used:
 	<property name="SellableToTrader" value="false" />
 </item>
 
-<item id="30001" name="fiberRope">
+<item id="30001" name="Rope">
 	<property name="Extends" value="itemMaster" />
 	<property name="Meshfile" value="Items/Crafting/plant_fibers" />
 	<property name="Weight" value="1" />
 	<property name="Material" value="plants" />
 	<property name="HoldType" value="16" />
 	<property name="Group" value="Basics,Resources" />
-	<property name="DescriptionKey" value="fiberRopeDesc" />
-	<property name="CustomIcon" value="ui_game_symbol_fiberRope" />
+	<property name="DescriptionKey" value="RopeDesc" />
+	<property name="CustomIcon" value="ui_game_symbol_Rope" />
 	<property name="CraftingSkillGroup" value="miscellaneousCraft" />
 	<property name="SellableToTrader" value="true" />
 	<property name="EconomicValue" value="5"/>

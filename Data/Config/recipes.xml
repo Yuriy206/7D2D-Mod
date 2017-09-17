@@ -87,8 +87,12 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <!-- * * * * * * * * * * * * main recipes * * * * * * * * * * * * -->
 
 <!-- * * * MOD ADDED * * * -->
-<recipe name="fiberRope" count="1" craft_time="1" craft_exp_gain="1">
+<recipe name="Rope" count="1" craft_time="1" craft_exp_gain="1">
 	<ingredient name="plantFibers" count="2" />
+</recipe>
+
+<recipe name="Rope" count="1" craft_time="1" craft_exp_gain="1">
+	<ingredient name="cloth" count="1" />
 </recipe>
 
 <!-- * * * AMMO * * * -->
