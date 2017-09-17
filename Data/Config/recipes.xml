@@ -90,11 +90,11 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="Rope" count="1" craft_time="1" craft_exp_gain="1">
 	<ingredient name="plantFibers" count="2" />
 </recipe>
-
+<!--
 <recipe name="Rope" count="1" craft_time="1" craft_exp_gain="1">
 	<ingredient name="cloth" count="1" />
 </recipe>
-
+-->
 <!-- * * * AMMO * * * -->
 <recipe name="44MagBullet" count="1" craft_area="workbench">
 	<ingredient name="bulletTip" count="1"/>
