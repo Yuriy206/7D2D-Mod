@@ -29,6 +29,33 @@ Mesh files no longer used:
 	<property name="HandMeshfile" value="Items/Misc/crossbow_bolt_hand_stonePrefab"/>
 -->
 <items>
+<!-- * * * MOD ADDED * * * -->
+<item id="30000" name="itemMaster">
+	<property name="Meshfile" value="Items/Misc/sackPrefab" />
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+	<property name="Material" value="organic" />
+	<property name="HoldType" value="45" />
+	<property name="Stacknumber" value="5000" />
+	<property name="Weight" value="5" />
+	<property name="Group" value="Resources" />
+	<property name="SellableToTrader" value="false" />
+</item>
+
+<item id="30001" name="fiberRope">
+	<property name="Extends" value="itemMaster" />
+	<property name="Meshfile" value="Items/Crafting/plant_fibers" />
+	<property name="Weight" value="1" />
+	<property name="Material" value="plants" />
+	<property name="HoldType" value="16" />
+	<property name="Group" value="Basics,Resources" />
+	<property name="DescriptionKey" value="fiberRopeDesc" />
+	<property name="CustomIcon" value="ui_game_symbol_fiberRope" />
+	<property name="CraftingSkillGroup" value="miscellaneousCraft" />
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="5"/>
+	<property name="EconomicBundleSize" value="20"/>
+</item>
+
 <!-- * * * * * * * * * * player melee weapons / clubs / knives * * * * * * * * * * -->
 <item id="1" name="clubMaster">
 	<property name="CreativeMode" value="None"/>
